@@ -4,8 +4,20 @@
 }
 
 header {
-  background-color: lightgrey;
-  padding: 10px;
+  background-image: url(https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_758,h_505/https://welpmagazine.com/wp-content/uploads/2020/11/medical-products-pharmacy-758x505.jpg);
+  padding: 50px;
+  align-items: center;
+}
+
+.pharmacy-name {
+  background-color: rgba(45, 136, 202, 0.85);
+  padding: 20px 0px 20px 0px;
+  margin: 50px 70px;
+  width: 25rem;
+  height: 6rem;
+  /* border-width: 100px; */
+  text-align: center;
+  align-items: center;
 }
 
 .product-pic {
@@ -20,12 +32,13 @@ header {
   /* flex-basis: 33.333333%; */
 }
 
-.the-park-pic:hover {
+.product-pic:hover {
   transform: scale(1.17);
   transition: 200ms ease-in-out;
-  border-radius: 70px;
+  /* border-radius: 70px; */
   box-shadow: 5px 3px 5px rgb(155, 155, 155);
   filter: brightness(1.1);
+  cursor: pointer;
 }
 
 .flex-container {

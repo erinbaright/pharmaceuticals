@@ -16,11 +16,11 @@ function Modal({ modalData, show, onClose, setShow }) {
           <h4>({modalData.genericDrugName})</h4>
           <p><b>Treats: </b>{modalData.FDAIndications}</p>
           <p><b>Drug Class: </b>{modalData.drugClass}</p>
-          <p><b>Rx Only: </b>{modalData["Rx-only"] ? "true": "false"}</p>
+          <p><b>{modalData["Rx-only"] ? "Prescription required": "Over the counter"}</b></p>
         </div>
         <div className="modal-footer">
           <button className="button" onClick={() => setShow(false)}>
-            Discover More Drugs 🔍
+            Discover More 💊
           </button>
         </div>
       </div>

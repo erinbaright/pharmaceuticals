@@ -5,7 +5,7 @@ import "./App.css";
 import "./App.js";
 import Modal from "./Modal.jsx";
 
-export default function Pharma ({ drugs }) {
+export default function Pharma({ drugs }) {
   const [show, setShow] = useState(false);
   const [modalData, setModalData] = useState();
 
@@ -18,9 +18,13 @@ export default function Pharma ({ drugs }) {
     <div>
       <div className="drugs">
         <header className="header">
-          <h1>Lin Lin's Pharmacy</h1>
-          <h3>Drugs in stock:</h3>
+          <div className="pharmacy-name">
+            <h1>Lin Lin's Pharmacy</h1>
+            <h3>Your trusted neighborhood pharmacist</h3>
+          </div>
         </header>
+
+        <h2>Pharmaceuticals in stock:</h2>
 
         <div className="flex-container">
           {drugs.map((banana) => (
@@ -51,7 +55,6 @@ export default function Pharma ({ drugs }) {
           onClose={() => setShow(false)}
           modalData={modalData}
         />
-
       </div>
     </div>
   );
