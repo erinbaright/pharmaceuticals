@@ -19,8 +19,8 @@ export default function Pharma({ drugs }) {
       <div className="drugs">
         <header className="header">
           <div className="pharmacy-name">
-            <h1>Lin Lin's Pharmacy</h1>
-            <h3>Your trusted neighborhood pharmacist</h3>
+            <h1 className="LinLin">Lam Pharmacy</h1>
+            <h2 className="slogan">Your trusted neighborhood pharmacist</h2>
           </div>
         </header>
 
