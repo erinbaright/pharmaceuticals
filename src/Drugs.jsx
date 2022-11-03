@@ -41,14 +41,6 @@ export default function Pharma({ drugs }) {
           ))}
         </div>
 
-        {/* <div>
-          {drugs.map(park => (
-            <div className="park-item" key={park.id}>
-              <h3>{park.fullName}</h3>
-            </div>
-          ))}
-        </div> */}
-
         <Modal
           setShow={setShow}
           show={show}

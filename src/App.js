@@ -8,7 +8,6 @@ import Modal from './Modal.jsx';
 
 function App() {
   const [drugs, setDrugs] = useState([]);
-  // const [show, setShow] = useState(false)
 
   useEffect(() => {
     const getData = async () => {
@@ -23,7 +22,6 @@ function App() {
     console.log(drugs);
 
   }, []);
-
   
   if (!drugs) return <h2>Loading...</h2>
   
