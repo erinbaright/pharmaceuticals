@@ -20,7 +20,7 @@ function Modal({ modalData, show, onClose, setShow }) {
         </div>
         <div className="modal-footer">
           <button className="button" onClick={() => setShow(false)}>
-            Discover More 💊
+            Discover More <span img alt="pill emoji">💊</span>
           </button>
         </div>
       </div>

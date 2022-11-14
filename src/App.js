@@ -3,8 +3,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Drugs from './Drugs.jsx';
-import Modal from './Modal.jsx';
-// import { toHaveDescription } from '@testing-library/jest-dom/dist/matchers';
+
 
 function App() {
   const [drugs, setDrugs] = useState([]);

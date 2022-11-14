@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import axios from "axios";
 import "./App.css";
 import "./App.js";
 import Modal from "./Modal.jsx";
@@ -12,7 +11,7 @@ export default function Pharma({ drugs }) {
   console.log(drugs, "Overhere");
   console.log(show);
 
-  if (!drugs) return <h1></h1>;
+  if (!drugs) return <h1>.</h1>;
 
   return (
     <div>
